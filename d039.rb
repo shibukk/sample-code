@@ -1,0 +1,1 @@
+print ARGF.to_a.uniq.size == 1 ? "YES" : "NO"
